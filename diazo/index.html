@@ -1,81 +1,107 @@
 <!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
 <html xmlns="http://www.w3.org/1999/xhtml" xml:lang="en-GB" lang="en-GB">
-<head>
-<meta http-equiv="X-UA-Compatible" content="IE=7" />
-<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
-<meta http-equiv="Content-Style-Type" content="text/css" />
-<meta http-equiv="Content-Script-Type" content="text/javascript" />
-<title>Title</title>
-<link rel="stylesheet" media="screen" href="http://www.ndm.ox.ac.uk/_static/website/stylesheets/content.css" type="text/css" charset="UTF-8" />
-<link rel="stylesheet" media="screen" href="http://www.ndm.ox.ac.uk/_static/website/stylesheets/layout.css" type="text/css" charset="UTF-8" />
-<link rel="stylesheet" media="print" href="http://www.ndm.ox.ac.uk/_static/website/stylesheets/print.css" type="text/css" charset="UTF-8" />
-</head>
-<body id="body">
-<div id="header-wrapper">
-  <div id="header">
-    <ul id="header-menu">
-      <li><a class="link-home" href="/" title="Home">Home</a></li>
-      <li><a class="link-site-map" href="" title="Site Map">Site Map</a></li>
-      <li><a class="link-contact" href="" title="Contact">Contact</a></li>
-      <li>
-        <form class="search" action="/_search" method="get">
-          <div class="search-box">
-            <label for="search-field"><img src="http://www.ndm.ox.ac.uk/_static/website/images/icons/icon-search.gif" alt="Search" /></label>
-            <input id="search-field" name="q" type="text" size="10" />
-          </div>
-          <div class="search-button">
-            <input name="b" type="submit" value="Search" />
-          </div>
-        </form>
-      </li>
-    </ul>
-    <a href="/" title="homepage"><img id="logo-ndm" src="http://www.ndm.ox.ac.uk/_static/website/images/logo-ndm.gif" alt="logo" /></a>
-    <a href="http://www.ox.ac.uk/" title="Link to Oxford University homepage"><img class="logo-box" src="http://www.ndm.ox.ac.uk/_static/website/images/ox-square-border.gif" alt="Oxford University logo" /></a>
-    <h1><a href="/" title="Title"><img src="http://www.ndm.ox.ac.uk/_static/website/images/heading1-ndm2.gif" alt="Alt" /></a></h1>
-    <h2><a href="" title="Title"><img src="http://www.ndm.ox.ac.uk/_static/website/images/heading2-medsci2.gif" alt="Alt" /></a></h2>
-    <ul id="primary-menu">
-      <li class="current"><a href="/home" title="Home">Home</a></li>
-      <li><a href="" title="title">Item 1</a></li>
-      <li><a href="" title="title">Item 2</a></li>
-      <li><a href="" title="title">Item 3</a></li>
-      <li><a href="" title="title">Item 4</a></li>
-      <li><a href="" title="title">Item 5</a></li>
-      <li><a href="" title="About">About</a></li>
-    </ul>
-  </div>
-</div>
-<div id="content-wrapper">
-  <div>
-    <div id="animation1"><img class="full-width" src="http://www.ndm.ox.ac.uk/_static/website/animation/homepage-animation.jpg" alt="" /></div>
-    <div class="column">
-      <h3>About</h3>
-      <img class="right" src="http://www.ndm.ox.ac.uk/_asset/image/richard-doll-building.jpeg" alt="" />
-      <p>Blurb</p>
-      <p><a class="link" title="Read more" href="/about">Read more</a></p>
+  <head>
+    <meta http-equiv="X-UA-Compatible" content="IE=7">
+    <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+    <meta http-equiv="Content-Style-Type" content="text/css">
+    <meta http-equiv="Content-Script-Type" content="text/javascript">
+    <title>diazo theme</title>
+    <link rel="stylesheet" media="screen" href="styles/content.css" type="text/css"
+
+      charset="UTF-8">
+    <link rel="stylesheet" media="screen" href="styles/layout.css" type="text/css"
+
+      charset="UTF-8">
+    <link rel="stylesheet" media="print" href="styles/print.css" type="text/css"
+
+      charset="UTF-8">
+  </head>
+  <body id="body">
+    <div id="header-wrapper">
+      <div id="header">
+        <ul id="header-menu">
+          <li><a class="link-home" href="/" title="Home">Home</a></li>
+          <li><a class="link-site-map" href="" title="Site Map">Site Map</a></li>
+          <li><a class="link-contact" href="" title="Contact">Contact</a></li>
+          <li>
+            <form class="search" action="/_search" method="get">
+              <div class="search-box"> <label for="search-field"><img src="http://www.ndm.ox.ac.uk/_static/website/images/icons/icon-search.gif"
+
+                    alt="Search"></label> <input id="search-field" name="q" size="10"
+
+                  type="text"> </div>
+              <div class="search-button"> <input name="b" value="Search" type="submit">
+              </div>
+            </form>
+          </li>
+        </ul>
+        <a href="/" title="homepage"><img id="logo-ndm" src="http://www.ndm.ox.ac.uk/_static/website/images/logo-ndm.gif"
+
+            alt="logo"></a> <a href="http://www.ox.ac.uk/" title="Link to Oxford University homepage"><img
+
+            class="logo-box" src="http://www.ndm.ox.ac.uk/_static/website/images/ox-square-border.gif"
+
+            alt="Oxford University logo"></a>
+        <h1><a href="/" title="Title"><img src="http://www.ndm.ox.ac.uk/_static/website/images/heading1-ndm2.gif"
+
+              alt="Alt"></a></h1>
+        <h2><a href="" title="Title"><img src="http://www.ndm.ox.ac.uk/_static/website/images/heading2-medsci2.gif"
+
+              alt="Alt"></a></h2>
+        <ul id="primary-menu">
+          <li class="current"><a href="/home" title="Home">Home</a></li>
+          <li><a href="" title="title">Item 1</a></li>
+          <li><a href="" title="title">Item 2</a></li>
+          <li><a href="" title="title">Item 3</a></li>
+          <li><a href="" title="title">Item 4</a></li>
+          <li><a href="" title="title">Item 5</a></li>
+          <li><a href="" title="About">About</a></li>
+        </ul>
+      </div>
     </div>
-    <div class="column">
-      <h3>Column 2 Title</h3>
-      <h4>Article</h4>
-      <h5>Posted 04/08/2011</h5>
-      <img class="right" src="http://www.ndm.ox.ac.uk/_asset/image/text-messaging-africa.jpeg/crop/50/60" alt="alt" />
-      <p>Text</p>
-      <h4>Article</h4>
-      <h5>Posted 03/08/2011</h5>
-      <img class="right" src="http://www.ndm.ox.ac.uk/_asset/image/dna.jpeg/crop/50/60" alt="Genomes of 500 people to be sequenced in full detail" />
-      <p>Text</p>
-      <p><a class="link" href="">Read more</a></p>
-      <p><a class="link" href="">See all news</a></p>
+    <div id="content-wrapper">
+      <div>
+        <div id="animation1"><img class="full-width" src="http://www.ndm.ox.ac.uk/_static/website/animation/homepage-animation.jpg"
+
+            alt=""></div>
+        <div class="column">
+          <h3>About</h3>
+          <img class="right" src="http://www.ndm.ox.ac.uk/_asset/image/richard-doll-building.jpeg"
+
+            alt="">
+          <p>Blurb</p>
+          <p><a class="link" title="Read more" href="/about">Read more</a></p>
+        </div>
+        <div class="column">
+          <h3>Column 2 Title</h3>
+          <h4>Article</h4>
+          <h5>Posted 04/08/2011</h5>
+          <img class="right" src="http://www.ndm.ox.ac.uk/_asset/image/text-messaging-africa.jpeg/crop/50/60" alt="alt">
+          <p>Text</p>
+          <h4>Article</h4>
+          <h5>Posted 03/08/2011</h5>
+          <img class="right" src="http://www.ndm.ox.ac.uk/_asset/image/dna.jpeg/crop/50/60" alt="Genomes of 500 people to be sequenced in full detail">
+          <p>Text</p>
+          <p><a class="link" href="">Read more</a></p>
+          <p><a class="link" href="">See all news</a></p>
+        </div>
+        <div class="column">
+          <h3>Column 3 Title</h3>
+          <a href=""><img class="right" src="http://www.ndm.ox.ac.uk/_asset/image/ndm-website-podcast-thumbs.gif" alt=""></a>
+          <p>Column 3 Content</p>
+        </div>
+      </div>
+      <div id="footer">
+        <p>Footer text</p>
+        <p> <a href="/">Home</a> | <a href="/_sitemap">Site Map</a> | <a href="/contact">Contact</a>
+          | <a href="http://www.admin.ox.ac.uk/foi/">Freedom of Information</a>
+          | <a href="http://www.admin.ox.ac.uk/dataprotection/privacypolicy/">Privacy
+            Policy</a> | <a href="http://www.ox.ac.uk/copyright.html">Copyright</a>
+          | <a href="http://www.ox.ac.uk/web/rules/accessibility.html">Accessibility</a>
+          | <a href="http://www.medsci.ox.ac.uk/">Medical Sciences Division</a>
+          | <a href="http://www.ox.ac.uk/">Oxford University</a> </p>
+      </div>
     </div>
-    <div class="column">
-      <h3>Column 3 Title</h3>
-      <a href=""><img class="right" src="http://www.ndm.ox.ac.uk/_asset/image/ndm-website-podcast-thumbs.gif" alt="" /></a>
-      <p>Column 3 Content</p>
-    </div>
-  </div>
-  <div id="footer">
-    <p>Footer text</p>
-    <p> <a href="/">Home</a> | <a href="/_sitemap">Site Map</a> | <a href="/contact">Contact</a> | <a href="http://www.admin.ox.ac.uk/foi/">Freedom of Information</a> | <a href="http://www.admin.ox.ac.uk/dataprotection/privacypolicy/">Privacy Policy</a> | <a href="http://www.ox.ac.uk/copyright.html">Copyright</a> | <a href="http://www.ox.ac.uk/web/rules/accessibility.html">Accessibility</a> | <a href="http://www.medsci.ox.ac.uk/">Medical Sciences Division</a> | <a href="http://www.ox.ac.uk/">Oxford University</a> </p>
-  </div>
-</div>
-</body>
+    
+  </body>
 </html>
