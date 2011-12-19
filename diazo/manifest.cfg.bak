@@ -1,3 +1,10 @@
 [theme]
-title = My theme
-description = A test theme
+title = CTSU theme
+description = Diazo theme for www.ctsu.ox.ac.uk
+rules = rules.xml
+#doctype = <!DOCTYPE html>
+
+#[theme:parameters]
+#ajax_load = python: 'ajax_load' in request.form
+#mode = string: test
+#foo = python:request.get('bar')
