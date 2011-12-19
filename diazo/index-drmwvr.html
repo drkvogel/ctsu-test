@@ -1,5 +1,5 @@
 <!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
-<html xmlns="http://www.w3.org/1999/xhtml">
+<html xmlns="http://www.w3.org/1999/xhtml" xml:lang="en-GB" lang="en-GB">
 <head>
 <meta http-equiv="X-UA-Compatible" content="IE=7" />
 <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
@@ -12,24 +12,20 @@
 </head>
 <body id="body">
 <div id="header-wrapper">
-  <div id="header">
+  <div id="header"><a href="http://www.ox.ac.uk/" title="Link to Oxford University homepage"><img class="logo-box" src="images/ox-square-border.gif" alt="Oxford University logo" /></a>
     <ul id="header-menu">
       <li><a class="link-home" href="/" title="Home">Home</a></li>
-      <li><a class="link-site-map" href="" title="Site Map">Site Map</a></li>
-      <li><a class="link-contact" href="" title="Contact">Contact</a></li>
+      <li><a class="link-site-map" href="/sitemap" title="Site Map">Site Map</a></li>
+      <li><a class="link-contact" href="/contact" title="Contact">Contact</a></li>
       <li>
         <form class="search" action="/_search" method="get">
           <div class="search-box">
-            <label for="search-field"><img src="http://www.ndm.ox.ac.uk/_static/website/images/icons/icon-search.gif" alt="Search" /></label>
-            <input id="search-field" name="q" size="10" type="text" />
-          </div>
-          <div class="search-button">
-            <input name="b" value="Search" type="submit" />
+            <input id="search-field" name="q" type="text" size="10" value="Search..." onfocus="if(this.value == 'Search...') {this.value = '';}" onblur="if (this.value == '') {this.value = 'Search...';}" />
+            <input id="magnifier_image" name="b" type="image" src="images/icons/icon-search.gif" value="Search" />
           </div>
         </form>
       </li>
     </ul>
-    <a href="http://www.ox.ac.uk/" title="Link to Oxford University homepage"><img class="logo-box" src="http://www.ndm.ox.ac.uk/_static/website/images/ox-square-border.gif" alt="Oxford University logo" /></a>
     <h1><a href="/" title="Title"><img src="images/ctsu-banner.gif" alt="Alt" /></a></h1>
     <ul id="primary-menu">
       <li class="current"><a href="/home" title="Home">Home</a></li>
@@ -48,12 +44,12 @@
     <h3>About</h3>
     <img class="right" src="http://www.ndm.ox.ac.uk/_asset/image/richard-doll-building.jpeg" alt="" />
     <p>Blurb</p>
-<!--    <p><a class="link" title="Read more" href="/about">Read more</a></p>-->
+    <!--    <p><a class="link" title="Read more" href="/about">Read more</a></p>--> 
   </div>
   <div class="column" id="column2">
     <h3 id="column2_heading">Column 2 Heading</h3>
-<!--    <p><a class="link" href="">Read more</a></p>
-    <p><a class="link" href="">See all news</a></p>-->
+    <!--    <p><a class="link" href="">Read more</a></p>
+    <p><a class="link" href="">See all news</a></p>--> 
   </div>
   <div class="column" id="column3">
     <h3 id="column3_heading">Column 3 Title</h3>
@@ -61,9 +57,18 @@
   </div>
   <div id="footer">
     <p>Footer text</p>
-    <p> <a href="/">Home</a> | <a href="/_sitemap">Site Map</a> | <a href="/contact">Contact</a> | <a href="http://www.admin.ox.ac.uk/foi/">Freedom of Information</a> | <a href="http://www.admin.ox.ac.uk/dataprotection/privacypolicy/">Privacy
-      Policy</a> | <a href="http://www.ox.ac.uk/copyright.html">Copyright</a> | <a href="http://www.ox.ac.uk/web/rules/accessibility.html">Accessibility</a> | <a href="http://www.medsci.ox.ac.uk/">Medical Sciences Division</a> | <a href="http://www.ox.ac.uk/">Oxford University</a> </p>
+    <p> <a href="/">Home</a> | <a href="/_sitemap">Site Map</a> | <a href="/contact">Contact</a> | <a href="http://www.admin.ox.ac.uk/foi/">Freedom of Information</a> | <a href="http://www.admin.ox.ac.uk/dataprotection/privacypolicy/">Privacy Policy</a> | <a href="http://www.ox.ac.uk/copyright.html">Copyright</a> | <a href="http://www.ox.ac.uk/web/rules/accessibility.html">Accessibility</a> | <a href="http://www.medsci.ox.ac.uk/">Medical Sciences Division</a> | <a href="http://www.ox.ac.uk/">Oxford University</a> </p>
   </div>
 </div>
+<script type="text/javascript">
+	var gaJsHost = (("https:" == document.location.protocol) ? "https://ssl." : "http://www.");
+	document.write(unescape("%3Cscript src='" + gaJsHost + "google-analytics.com/ga.js' type='text/javascript'%3E%3C/script%3E"));
+	</script> 
+<script type="text/javascript">
+	try {
+	var pageTracker = _gat._getTracker("UA-5929760-1");
+	pageTracker._trackPageview();
+	} catch(err) {}
+	</script>
 </body>
 </html>
